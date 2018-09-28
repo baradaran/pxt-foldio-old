@@ -1,5 +1,5 @@
 #include <input>
-
+namespace foldio {
     /**
      * Do something when a pin is released.
      * @param name the pin that needs to be released, eg: TouchPin.P0
@@ -15,3 +15,5 @@
         pin->isTouched();
         registerWithDal((int)name, MICROBIT_BUTTON_EVT_CLICK, body);
     }
+
+}
