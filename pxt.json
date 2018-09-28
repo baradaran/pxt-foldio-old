@@ -7,8 +7,21 @@
     },
     "files": [
         "README.md",
+        "foldio.ts",
+        "foldimal.cpp",
+        "foldimal.ts"
+    ],
+      "testFiles": [
         "foldio.ts"
     ],
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
     },
     "public": true,
     "additionalFilePaths": []
