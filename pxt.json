@@ -8,7 +8,7 @@
     },
     "files": [
         "README.md",
-        "foldio.ts",
+        "foldio.ts"
     ],
     },
     "public": true,
