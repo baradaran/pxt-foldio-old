@@ -4,7 +4,6 @@
     "description": "Foldio driver",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
     },
     "files": [
         "README.md",
