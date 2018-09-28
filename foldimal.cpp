@@ -1,4 +1,9 @@
 #include <input>
+
+/**
+ * Control of the Foldio animal.
+ */
+//% Id=device_no_blockID block="my block"  icon="\uF006" color=#e59920 weight=97
 namespace foldio {
     /**
      * Do something when a pin is released.
